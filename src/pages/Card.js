@@ -21,7 +21,7 @@ function Card() {
         price,
         title,
         description,
-        rating: { rate, count }
+        rating: { rate, count } = {}
     } = singleProduct
     return (
         <div className='cart_Wrapper'>
